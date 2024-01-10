@@ -1,0 +1,102 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body{
+  background-color: aqua;
+}
+
+
+/* FoodBox.css */
+.food-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 1000px; /* Adjust the width as needed */
+  
+}
+
+.food-box img {
+  max-width: 150px;
+  height: 100px;
+  position: relative;
+  right: 300px ;
+  top: 90px;
+}
+
+.food-box .name {
+  flex-grow: 1; /* Allow the name to grow and take remaining space */
+  position: relative;
+  right: 300px ;
+  top: 100px;
+  
+}
+
+.food-box input,
+.food-box button {
+ 
+  position: relative;
+  left: 100px;
+  
+
+}
+
+.food-box p {
+  
+  position: relative;
+  left: 60px;
+
+}
+.add{
+  position: relative;
+  left: 300px;
+  bottom: 25px;
+}
+.para{
+  position: relative;
+  right: 500px;
+}
+
+
